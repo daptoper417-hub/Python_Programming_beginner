@@ -1,0 +1,18 @@
+'''
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+bear is so fattttttttttttttttttt
+
+'''
+n2ame = "胖熊"
+age_old = 30
+class1 = 180
+is_student = True
+
+print(n2ame)
+print(age_old)
+print(class1)
+print(is_student)
