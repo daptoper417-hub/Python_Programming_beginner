@@ -1,0 +1,4 @@
+a = float(input("請輸入第一個數："))
+b = float(input("請輸入第二個數："))
+
+print("最大值是：", max(a, b))
