@@ -1,0 +1,14 @@
+a = float(input("分數："))
+if a >= 90:
+    grede = "A"
+elif  a >= 80:
+     grede = "b"
+elif  a >= 70:
+    grede = "c"
+elif  a >= 60:
+    grede = "d"
+else:
+    grede = "f"
+        
+
+print(f"你的成績為{a}分級為{grede}")
