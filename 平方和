@@ -1,0 +1,4 @@
+a = float(input("整數1："))
+b = float(input("整數2："))
+        
+print(f"{a*a+b*b}")
