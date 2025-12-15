@@ -1,0 +1,11 @@
+# 輸入四個整數
+a = int(input("請輸入第一個整數："))
+b = int(input("請輸入第二個整數："))
+c = int(input("請輸入第三個整數："))
+d = int(input("請輸入第四個整數："))
+
+# 找出最小值
+minimum = min(a, b, c, d)
+
+# 顯示結果
+print("最小的數是：", minimum)
