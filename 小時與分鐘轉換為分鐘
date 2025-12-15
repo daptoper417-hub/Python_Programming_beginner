@@ -1,0 +1,12 @@
+def time_to_minutes(hours, minutes):
+    """將小時與分鐘換算成總分鐘數"""
+    return hours * 60 + minutes
+
+
+# 主程式
+a = int(input("請輸入小時 a："))
+b = int(input("請輸入分鐘 b："))
+
+x = time_to_minutes(a, b)
+
+print("總共是", x, "分鐘")
