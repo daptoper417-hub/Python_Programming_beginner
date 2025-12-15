@@ -1,0 +1,12 @@
+def rectangle_area(height, width):
+    """計算矩形面積"""
+    return height * width
+
+
+# 主程式
+h = float(input("請輸入高度："))
+w = float(input("請輸入寬度："))
+
+area = rectangle_area(h, w)
+
+print("矩形面積為：", area)
