@@ -1,0 +1,5 @@
+def roc_to_ad(roc_year):
+    return roc_year + 1911
+
+year = int(input("請輸入民國年："))
+print("西元年是：", roc_to_ad(year))
