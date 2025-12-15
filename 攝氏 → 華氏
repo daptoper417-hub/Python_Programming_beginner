@@ -1,0 +1,14 @@
+def celsius_to_fahrenheit(c):
+    """
+    將攝氏溫度轉換成華氏溫度
+    F = C * 9/5 + 32
+    """
+    return c * 9 / 5 + 32
+
+
+# 主程式
+a = float(input("請輸入攝氏溫度 (℃)："))
+
+b = celsius_to_fahrenheit(a)
+
+print(f"{a} ℃ = {b} ℉")
